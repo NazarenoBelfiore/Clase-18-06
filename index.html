@@ -10,9 +10,10 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&family=Outfit:wght@700;800;900&display=swap" rel="stylesheet">
     <!-- Stylesheet -->
-    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="css/index.css">
 </head>
 <body>
+    <div class="menu-overlay" id="menu-overlay"></div>
     <!-- Glowing background blobs for modern glassmorphism depth -->
     <div class="bg-mesh-blob blob-red" aria-hidden="true"></div>
     <div class="bg-mesh-blob blob-orange" aria-hidden="true"></div>
@@ -31,9 +32,15 @@
                     <a href="#manifiesto" class="nav-link">Modalidades</a>
                     <a href="#dominio" class="nav-link">Control</a>
                     <a href="#componentes" class="nav-link">Componentes</a>
+                    <button class="cta-button mobile-nav-cta btn-trigger-modal">Distribuidores</button>
                 </nav>
                 <button class="cta-button header-cta btn-trigger-modal" id="header-cta-btn">
                     Distribuidores
+                </button>
+                <button class="mobile-menu-toggle" id="mobile-menu-toggle" aria-label="Menú">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
                 </button>
             </div>
         </header>
@@ -275,6 +282,6 @@
     </div>
 
     <!-- Script -->
-    <script src="index.js"></script>
+    <script src="js/index.js"></script>
 </body>
 </html>
