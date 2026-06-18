@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Venzo Amphion - Domina el Relieve, Superá tus Límites</title>
+    <meta name="description" content="Landing page persuasiva de la bicicleta Venzo Amphion Rodado 29. Diseñada con cuadro de aluminio 6061, transmisión Shimano y frenos hidráulicos para dominar cualquier terreno.">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&family=Outfit:wght@700;800;900&display=swap" rel="stylesheet">
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <!-- Glowing background blobs for modern glassmorphism depth -->
+    <div class="bg-mesh-blob blob-red" aria-hidden="true"></div>
+    <div class="bg-mesh-blob blob-orange" aria-hidden="true"></div>
+    <div class="bg-mesh-blob blob-orange-light" aria-hidden="true"></div>
+
+    <!-- Main Wrapper (Max-width controlled inside sections where necessary for fluid full-screen backgrounds) -->
+    <div class="site-wrapper">
+
+        <!-- Header / Navigation (Sticky, Minimalist & Premium) -->
+        <header class="main-header" id="site-header">
+            <div class="header-container">
+                <a href="#" class="logo" id="header-logo">
+                    VENZO <span>AMPHION</span>
+                </a>
+                <nav class="nav-menu" id="header-nav">
+                    <a href="#manifiesto" class="nav-link">Modalidades</a>
+                    <a href="#dominio" class="nav-link">Control</a>
+                    <a href="#componentes" class="nav-link">Componentes</a>
+                </nav>
+                <button class="cta-button header-cta btn-trigger-modal" id="header-cta-btn">
+                    Distribuidores
+                </button>
+            </div>
+        </header>
+
+        <main>
+            <!-- MÓDULO 1: Hero Section (Ángulo Dinámico - Opción B) -->
+            <section class="hero-section" id="hero">
+                <!-- Capa de Oscurecimiento (Overlay) -->
+                <div class="hero-overlay"></div>
+                
+                <!-- Contenido Central -->
+                <div class="hero-center-content section-wrapper">
+                    <h1 class="hero-title animate-fade-in" id="hero-main-title">
+                        VIVE EXPERIENCIAS<br>
+                        QUIEBRA TUS LIMITES
+                    </h1>
+                    <div class="hero-actions animate-fade-in-delayed-more">
+                        <button class="cta-button hero-cta-btn btn-trigger-modal" id="hero-cta-btn">
+                            Encontrá tu distribuidor oficial más cercano
+                        </button>
+                        <a href="#manifiesto" class="cta-button hero-cta-btn" id="hero-more-btn">
+                            Conocé más acerca de la Amphion
+                        </a>
+                    </div>
+                </div>
+            </section>
+
+            <!-- MÓDULO 2: El Manifiesto (Doble Lectura con Fondos - Opción A Modificada) -->
+            <section class="manifesto-section" id="manifiesto">
+                <div class="section-wrapper">
+                    <div class="row" id="manifesto-row">
+                        <!-- Columna Izquierda (Principiantes) -->
+                        <div class="col-md-6 manifesto-col left-col manifesto-card" id="manifesto-amateur-col">
+                            <div class="col-background-image" style="background-image: linear-gradient(to bottom, rgba(13, 13, 17, 0.4), rgba(13, 13, 17, 0.9)), url('assets/manifesto_amateur.png');"></div>
+                            <div class="col-content">
+                                <span class="col-tag" id="amateur-tag">EL COMIENZO</span>
+                                <h2 class="col-title" id="amateur-title">Para los que dejan el asfalto atrás.</h2>
+                                <p class="col-text" id="amateur-desc">Tu puerta de entrada al Mountain Bike real.</p>
+                            </div>
+                        </div>
+                        
+                        <!-- Columna Derecha (Profesionales) -->
+                        <div class="col-md-6 manifesto-col right-col manifesto-card" id="manifesto-pro-col">
+                            <div class="col-background-image" style="background-image: linear-gradient(to bottom, rgba(13, 13, 17, 0.4), rgba(13, 13, 17, 0.9)), url('assets/manifesto_pro.png');"></div>
+                            <div class="col-content">
+                                <span class="col-tag tag-accent" id="pro-tag">EL LÍMITE</span>
+                                <h2 class="col-title" id="pro-title">Para los que exigen el máximo milímetro de tracción.</h2>
+                                <p class="col-text" id="pro-desc">Tu herramienta para destruir tus propios marcadores.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- MÓDULO 3: El Dominio Absoluto (Split Horizontal con Parallax - Opción B Modificada) -->
+            <section class="parallax-section" id="dominio">
+                <div class="parallax-container section-wrapper">
+                    <!-- Lado Izquierdo (Fijo) -->
+                    <div class="parallax-left" id="parallax-sticky-content">
+                        <div class="sticky-inner">
+                            <span class="section-pretitle">TECNOLOGÍA DE CONTROL</span>
+                            <h2 class="section-title" id="parallax-main-title">CONTROL A SANGRE FRÍA.</h2>
+                            <p class="section-description" id="parallax-desc">
+                                Sentí la absorción absoluta con la horquilla de 100 mm con bloqueo y las cubiertas rodado 29 de alta tracción. El relieve cambia, tu velocidad no.
+                            </p>
+                            <div class="spec-highlight-grid">
+                                <div class="spec-item">
+                                    <span class="spec-number">100<span>mm</span></span>
+                                    <span class="spec-label">Horquilla con Bloqueo</span>
+                                </div>
+                                <div class="spec-item">
+                                    <span class="spec-number">29<span>"</span></span>
+                                    <span class="spec-label">Rodado de Alta Tracción</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Lado Derecho (Imagen Parallax) -->
+                    <div class="parallax-right" id="parallax-scroll-container">
+                        <div class="parallax-image-wrapper">
+                            <img src="assets/parallax_wheel.png" alt="Horquilla y rueda rodado 29 de Venzo Amphion en detalle" class="parallax-image" id="parallax-wheel-img">
+                            <div class="parallax-overlay-layer"></div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- MÓDULO 4: Galería de Componentes (Carrusel Cinemático Asimétrico) -->
+            <section class="components-section" id="componentes">
+                <div class="components-header">
+                    <span class="section-pretitle">INGENIERÍA EXTREMA</span>
+                    <h2 class="section-title">COMPONENTES DE PRECISIÓN</h2>
+                </div>
+
+                <div class="slider-wrapper" id="components-slider-wrapper">
+                    <!-- Flechas de Control Flotantes -->
+                    <button class="slider-arrow arrow-prev" id="slider-prev" aria-label="Slide Anterior">
+                        <svg viewBox="0 0 24 24" width="24" height="24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"><line x1="19" y1="12" x2="5" y2="12"></line><polyline points="12 19 5 12 12 5"></polyline></svg>
+                    </button>
+                    
+                    <div class="slider-track" id="slider-track">
+                        <!-- Slide 1: Cuadro -->
+                        <div class="slide active" data-index="0">
+                            <img src="assets/component_frame.png" alt="Cuadro Aluminio 6061 Venzo Amphion">
+                        </div>
+                        
+                        <!-- Slide 2: Transmisión -->
+                        <div class="slide" data-index="1">
+                            <img src="assets/component_transmission.png" alt="Transmisión Shimano Venzo Amphion">
+                        </div>
+                        
+                        <!-- Slide 3: Frenos -->
+                        <div class="slide" data-index="2">
+                            <img src="assets/component_brakes.png" alt="Frenos Hidráulicos Venzo Amphion">
+                        </div>
+                    </div>
+
+                    <button class="slider-arrow arrow-next" id="slider-next" aria-label="Slide Siguiente">
+                        <svg viewBox="0 0 24 24" width="24" height="24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+                    </button>
+                </div>
+
+                <!-- Bloque de Texto Centrado -->
+                <div class="slider-content" id="slider-text-content">
+                    <h3 class="slider-title" id="slider-component-title">CUADRO ALUMINIO 6061</h3>
+                    <p class="slider-desc" id="slider-component-desc">Ligereza estructural y rigidez torsional para máxima respuesta.</p>
+                </div>
+
+                <!-- Indicadores de Navegación (Dots) -->
+                <div class="slider-dots" id="slider-dots-container">
+                    <span class="slider-dot active" data-index="0"></span>
+                    <span class="slider-dot" data-index="1"></span>
+                    <span class="slider-dot" data-index="2"></span>
+                </div>
+            </section>
+
+            <!-- MÓDULO 5: Cierre de Conversión (Urgencia de Stock - Opción A Modificada) -->
+            <section class="conversion-section" id="cierre-conversion">
+                <div class="conversion-bg-overlay"></div>
+                <div class="conversion-container section-wrapper">
+                    <h2 class="conversion-title" id="conversion-main-title">
+                        LAS UNIDADES VUELAN.<br>EL TERRENO NO ESPERA.
+                    </h2>
+                    <p class="conversion-subtitle">
+                        El stock de la Venzo Amphion es limitado. Asegurá la tuya hoy y dominá el sendero mañana.
+                    </p>
+                    <div class="conversion-action">
+                        <button class="cta-button secondary-cta btn-trigger-modal" id="conversion-cta-btn">
+                            Encontrá tu distribuidor oficial más cercano
+                        </button>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <!-- FOOTER: Cierre minimalista -->
+        <footer class="main-footer" id="site-footer">
+            <div class="footer-container section-wrapper">
+                <div class="footer-top">
+                    <div class="footer-brand">
+                        <span class="logo">VENZO <span>AMPHION</span></span>
+                        <p class="brand-slogan">Llevando el Mountain Bike a su estado más puro.</p>
+                    </div>
+                    <div class="footer-links-group">
+                        <h4 class="links-title">Seguinos</h4>
+                        <div class="social-links">
+                            <a href="#" class="social-link" id="footer-social-ig">Instagram</a>
+                            <a href="#" class="social-link" id="footer-social-fb">Facebook</a>
+                            <a href="#" class="social-link" id="footer-social-yt">YouTube</a>
+                        </div>
+                    </div>
+                </div>
+                <hr class="footer-divider">
+                <div class="footer-bottom">
+                    <p class="footer-copy">&copy; 2026 Venzo Argentina. Todos los derechos reservados. Diseñado por Antigravity.</p>
+                    <div class="footer-legal">
+                        <a href="#" class="legal-link">Términos y Condiciones</a>
+                        <a href="#" class="legal-link">Políticas de Privacidad</a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+        <!-- MODAL: Distribuidor Oficial (Premium Pop-up) -->
+        <div class="modal-overlay" id="distributor-modal">
+            <div class="modal-content" id="distributor-modal-content">
+                <button class="modal-close" id="modal-close-btn" aria-label="Cerrar modal">
+                    <svg viewBox="0 0 24 24" width="24" height="24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+                </button>
+                <div class="modal-header">
+                    <h3 class="modal-title">ENCONTRÁ TU DISTRIBUIDOR OFICIAL</h3>
+                    <p class="modal-subtitle">Ingresá tu ciudad para ver los puntos de venta autorizados Venzo más cercanos.</p>
+                </div>
+                <div class="modal-body">
+                    <div class="search-box">
+                        <input type="text" placeholder="Ej: Buenos Aires, Córdoba, Rosario..." class="search-input" id="search-dealer-input">
+                        <button class="search-btn" id="search-dealer-btn">
+                            Buscar
+                        </button>
+                    </div>
+                    <div class="dealers-list" id="dealers-list-container">
+                        <div class="dealer-item active">
+                            <div class="dealer-info">
+                                <h4 class="dealer-name">Extreme Bike Shop</h4>
+                                <p class="dealer-address">Av. del Libertador 4200, Palermo, CABA</p>
+                                <p class="dealer-phone">Tel: (011) 4899-1234</p>
+                            </div>
+                            <span class="dealer-status">Con Stock</span>
+                        </div>
+                        <div class="dealer-item">
+                            <div class="dealer-info">
+                                <h4 class="dealer-name">Córdoba Pedal Shop</h4>
+                                <p class="dealer-address">Av. Colón 1800, Córdoba Capital</p>
+                                <p class="dealer-phone">Tel: (0351) 472-8888</p>
+                            </div>
+                            <span class="dealer-status">Con Stock</span>
+                        </div>
+                        <div class="dealer-item">
+                            <div class="dealer-info">
+                                <h4 class="dealer-name">Rosario Ciclo Aventura</h4>
+                                <p class="dealer-address">Pellegrini 1200, Rosario, Santa Fe</p>
+                                <p class="dealer-phone">Tel: (0341) 440-5555</p>
+                            </div>
+                            <span class="dealer-status status-low">Stock Bajo</span>
+                        </div>
+                    </div>
+                    <!-- Mock Map Visualizer for extreme fidelity -->
+                    <div class="mock-map">
+                        <div class="map-marker" style="top: 45%; left: 48%;">
+                            <div class="marker-pulse"></div>
+                            <div class="marker-dot"></div>
+                        </div>
+                        <span class="map-label">Mapa interactivo Venzo Dealer Locator</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- Script -->
+    <script src="index.js"></script>
+</body>
+</html>
